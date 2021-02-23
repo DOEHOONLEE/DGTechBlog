@@ -1,6 +1,6 @@
 ---
-title: "General Tips"
-permalink: /General/
+title: "IT Terms"
+permalink: /Terminology/
 layout: single
 ---
 
