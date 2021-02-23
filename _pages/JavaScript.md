@@ -4,8 +4,6 @@ permalink: /JavaScript/
 layout: single
 ---
 
-# JavaScript Cheatsheet
-
 ### 한국어
 
 ## QUICK VIEW
