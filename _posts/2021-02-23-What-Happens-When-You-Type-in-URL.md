@@ -9,7 +9,7 @@ tags:
     - Interview Prep
 ---
 
-> Author: Doe Hoon
+> Author: Doe Hoon LEE
 
 <hr>
 

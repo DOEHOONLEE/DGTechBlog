@@ -2,7 +2,7 @@
 title : "Functional Programming"
 
 categories:
-      - General
+      - Programming
 
 tags:
     - Functional Programming
