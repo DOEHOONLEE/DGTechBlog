@@ -1,6 +1,6 @@
 ---
-title: "IT Terms"
-permalink: /Terminology/
+title: "Terminologies"
+permalink: /Terminologies/
 layout: single
 ---
 

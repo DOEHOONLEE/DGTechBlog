@@ -65,9 +65,9 @@ Let's dig more into it then?
 * x(execute) : execute or view contents
 
 |               | Owner |     |     | Group |     |     | Others |     |     |
-| ------------- | ----- | --- | --- | ----- | --- | --- | ------ | --- | --- |
-| Symbolic mode |   r   |  w  |  x  |   r   |  w  |  x  |   r    |  -  |  -  |
-| Numeric mode  |   4   |  2  |  1  |   4   |  2  |  1  |   4    |  0  |  0  |
+| ------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Symbolic mode |  r  |  w  |  x  |  r  |  w  |  x  |  r |  -  |  -  |
+| Numeric mode  |  4  |  2  |  1  |  4  |  2  |  1  |  4 |  0  |  0  |
 
 - Each numerics are added to see each category's accessibility (ex. 664 or 777)
 
@@ -86,10 +86,10 @@ This means the owner has the ability to 'read' and 'write', but other(s) can onl
 This can be rewritten in numeric mode
 
 |               | Owner |     |     | Group |     |     | Others |     |     |
-| ------------- | ----- | --- | --- | ----- | --- | --- | ------ | --- | --- |
-| Symbolic mode |   r   |  w  |  -  |   r   |  w  |  -  |   r    |  -  |  -  |
-| Numeric mode  |   4   |  2  |  0  |   4   |  2  |  0  |   4    |  0  |  0  |
-| Sum           |       |  6  |     |       |  6  |     |        |  6  |     |
+| ------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Symbolic mode |  r  |  w  |  -  |  r  |  w  |  -  |  r  |  -  |  -  |
+| Numeric mode  |  4  |  2  |  0  |  4  |  2  |  0  |  4  |  0  |  0  |
+| Sum           |     |  6  |     |     |  6  |     |     |  6  |     |
 
 - `1`
 
