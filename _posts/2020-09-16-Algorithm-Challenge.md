@@ -15,6 +15,7 @@ tags:
     - 풀이
 ---
 
+> Author: Doe Hoon LEE
 
 > 
 > All the algorithm problems I've solved!

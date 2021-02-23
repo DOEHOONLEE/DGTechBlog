@@ -7,6 +7,8 @@ tags:
     - Algorithm
 ---
 
+> Author: Doe Hoon LEE
+
 ## Algorithm Dictionary
 
 ### **A_**

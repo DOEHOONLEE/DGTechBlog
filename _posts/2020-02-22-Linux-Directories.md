@@ -10,6 +10,8 @@ tags:
 
 <hr>
 
+> Author: Doe Hoon LEE
+
 #### Important directories in Linux!
 
 | Directory   | What is it ?                                                                           |

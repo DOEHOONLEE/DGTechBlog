@@ -11,6 +11,8 @@ tags:
     - 코드워즈
 ---
 
+> Author: Doe Hoon LEE
+
 <hr>
 
 ## CodeWars - 자바스크립트

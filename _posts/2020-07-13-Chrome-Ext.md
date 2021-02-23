@@ -8,6 +8,9 @@ tags:
     - Chrome Extension
 ---
 
+> Author: Doe Hoon LEE
+
+
 ## 크롭 확장 프로그램을 만들어 봅시다!
 
 ### [1] 필요한 폴더와 파일들을 만듭니다.

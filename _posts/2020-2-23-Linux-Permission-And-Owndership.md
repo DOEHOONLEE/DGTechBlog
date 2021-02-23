@@ -10,6 +10,8 @@ tags:
 
 <hr>
 
+> Author: Doe Hoon LEE
+
 #### Linux Permission and Ownership
 
 When you type `ls -l` on your terminal, you are going to see something like this

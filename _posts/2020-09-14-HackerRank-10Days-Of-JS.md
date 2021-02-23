@@ -9,6 +9,8 @@ tags:
     - Algorithm
 ---
 
+> Author: Doe Hoon LEE
+
 ## Day 0 : Hello, World!
 
 > Task

@@ -9,6 +9,8 @@ tags:
     - JavaScript
 ---
 
+> Author: Doe Hoon LEE
+
 When examining how performant an algorithm is, we can use (1) Time Complexity and (2) Space Complexity.
 
 ### Time Complexity

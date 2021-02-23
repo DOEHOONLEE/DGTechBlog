@@ -13,6 +13,8 @@ tags:
 
 <hr>
 
+> Author: Doe Hoon LEE
+
 ## CodeWars - 자바스크립트
 
 2020년 6월 29일 - 재미로 풀어본 8급 문제들

@@ -13,6 +13,8 @@ tags:
 
 <hr>
 
+> Author: Doe Hoon LEE
+
 ## Codewars Problem [JavaScript]
 
 ###### Solved on Oct. 11, 2019

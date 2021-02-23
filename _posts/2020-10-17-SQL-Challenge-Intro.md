@@ -11,6 +11,8 @@ tags:
     - SQL
 ---
 
+> Author: Doe Hoon LEE
+
 #### [한글버전](#2-KOR-Ver.) <- 클릭!
 
 
