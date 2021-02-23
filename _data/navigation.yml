@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "General"
+    url: https://doehoonlee.github.io/General
+  - title: "JavaScript"
+    url: https://doehoonlee.github.io/JavaScript
+  - title: "Posts"
+    url: https://doehoonlee.github.io/categories/
+  - title: "Portfolio"
+    url: https://doehoonlee.github.io/portfolio
+  - title: "About"
+    url: https://doehoonlee.github.io/About
