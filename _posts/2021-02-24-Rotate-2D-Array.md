@@ -31,7 +31,7 @@ answer = [
 
 ```
 
-[1]
+##### STEP [1]
 
 Let's make an empty `answer` array to show our final answer. Also, declare row and col lengths.
 
@@ -43,7 +43,7 @@ function rotateMatrix(matrix) {
 }
 ```
 
-[2]
+##### STEP [2]
 
 What you want to do next is to grab elements in specific order in the direction of the arrow on the picture.
 
@@ -51,19 +51,19 @@ What you want to do next is to grab elements in specific order in the direction 
 
 For clockwise rotation,
 
-1. The very first element's index would be
+ * The very first element's index would be
 
 ```js
 matrix[matrix.length - 1][0];
 ```
 
-2. So the first three elements we want should look like this
+ * So the first three elements we want should look like this
 
 ```js
 const temp = [matrix[matrix.length - 1][0], matrix[matrix.length - 1 - 1][0], matrix[matrix.length - 1 - 2][0]];
 ```
 
-[3]
+##### STEP [3]
 
 Then, let's now put above concept into `for` loop !
 
@@ -90,25 +90,27 @@ function rotateMatrix(matrix) {
 
 Oh?! but what if we want to rotate the array "counter-clockwise?!"
 
-![Counter-Clockwise]({{ site.url }}{{ site.baseurl }}/assets/img/post/counter-clockwise-order.png)
+![Counter-Clockwise]({{ site.url }}{{ site.baseurl }}/assets/img/post/counter-clockwise.png)
 
-[4]
+##### STEP [4]
 
 The concept is very similar to clockwise rotation in step [2]. We only have to visit elements in a different order with different direction.
 
-1. The very first element's index would be
+![Counter-Clockwise]({{ site.url }}{{ site.baseurl }}/assets/img/post/counter-clockwise-order.png)
+
+ * The very first element's index would be
 
 ```js
 matrix[0][matrix.length - 1];
 ```
 
-2. So the first three elements we want should look like this
+ * The first three elements we want should look like this
 
 ```js
 const temp = [matrix[0][matrix.length - 1], matrix[0+1][matrix.length - 1], matrix[0+2][matrix.length - 1]];
 ```
 
-[5]
+##### STEP [5]
 
 So counter-clockwise rotation would look like this.
 
@@ -133,7 +135,7 @@ function rotateMatrixCounterClockwise(matrix) {
 }
 ```
 
-[6]
+##### STEP [6]
 
 Hmm, I am getting a bit lazy writing two different algorithms for rotation problem though..
 
@@ -149,7 +151,7 @@ function rotateMatrix(matrix, direction) {
 }
 ```
 
-[7]
+##### STEP [7]
 
 and we put the same `for-loop`, but also include `if-statment` so that we rotate in the direction we want.
 
@@ -179,7 +181,7 @@ function rotateMatrix(matrix, direction) {
 }
 ```
 
-[8]
+##### STEP [8]
 
 Now, we fill in the for loop with the concept we learned in [2] and [4]
 
@@ -209,7 +211,7 @@ function rotateMatrix(matrix, direction) {
 }
 ```
 
-[TEST]
+##### [TEST]
 
 Let's move to dev tool and test our algorithm!
 
