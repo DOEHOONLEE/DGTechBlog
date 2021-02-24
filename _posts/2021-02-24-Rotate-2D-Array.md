@@ -1,6 +1,6 @@
 ---
 title : "Rotate 2D Array"
-
+classes: wide
 categories:
       - Algorithm
 

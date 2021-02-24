@@ -1,6 +1,6 @@
 ---
 title : "How To Count Elements"
-
+classes: wide
 categories:
       - Algorithm
 
