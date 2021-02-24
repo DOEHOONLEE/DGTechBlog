@@ -59,10 +59,11 @@ myArray[3] // => "e"
 
 `indexOf(WHAT_YOU_ARE_LOOKING_FOR)` returns the index of the string you are looking for or `-1` if there is no match
 
-| "START STRING".startsWith("SART") | returns true |
+| method | returns |
 | --- | --- |
-| "END STRING".endsWith("STRING") | returns true |
-| "END STRING".endsWith("END") | returns false |
+| "START STRING".startsWith("SART") | true |
+| "END STRING".endsWith("STRING") | true |
+| "END STRING".endsWith("END") | false |
 
 `slice(HERE,THERE)` returns the string index from HERE to THERE or from HERE to the end if not specified
 
