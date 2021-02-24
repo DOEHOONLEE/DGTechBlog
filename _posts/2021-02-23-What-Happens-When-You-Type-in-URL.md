@@ -13,26 +13,27 @@ tags:
 
 <hr>
 
-Have you wondered what happens after you type in a URL in a browser?
+#### Have you wondered what happens after you type in a URL in a browser?
 
-This is one of the mostly asked question in an interview too!
+#### This is one of the mostly asked question in an interview too!
 
 
-DNS (Domain Name System) converts domain name into IP addresses so that computers can understand.
 
-1. We type in a URL !
+##### [STEP] 1. We type in a URL !
 
+    * DNS (Domain Name System) converts domain name into IP addresses so that computers can understand.
+    
     * If addresses were all in numbers (IP addresses), we wouldn't be able to recognize or remember them well.
 
 and this is what #2 is for
 
-2. Browser looks for IP address through DNS
+##### [STEP] 2. Browser looks for IP address through DNS
 
 Once the IP address is confirmed, we start communication now!
 
 To access the web server, we need IP and port(80)
 
-3. HTTP request to the server
+##### [STEP] 3. HTTP request to the server
 
     * The request is made with the following methods so that we know what it is for
         * GET
@@ -45,7 +46,7 @@ To access the web server, we need IP and port(80)
             * PATCH is used when specific/some part is modified only
             * PUT is used when the whole part needs to be updated
 
-4. HTTP response
+##### [STEP] 4. HTTP response
 
     * HTTP response contains
         * status line
@@ -57,7 +58,7 @@ To access the web server, we need IP and port(80)
         * HTTP headers
         * message body
 
-5. Browsers begins building DOM.
+##### [STEP] 5. Browsers begins building DOM.
 
     * HTML parsing
     * when it reaches link/script tag, it stops HTML parsing and starts CSS parsing or images or reads JS code

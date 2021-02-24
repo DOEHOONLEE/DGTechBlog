@@ -61,10 +61,18 @@ $dark-gray: mix(#000, $gray, 50%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
+/* PERSONAL CHANGE START */
+$dark-pink-personal: #c7254e !default;
+/* PERSONAL CHANGE END */
+
 
 $background-color: #fff !default;
-$code-background-color: #fafafa !default;
-$code-background-color-dark: $light-gray !default;
+/* PERSONAL CHANGE START */
+// $code-background-color: #fafafa !default;
+// $code-background-color-dark: $light-gray !default;
+$code-background-color: #f9f2f4 !default;
+$code-background-color-dark: #f9f2f4 !default;
+/* PERSONAL CHANGE END */
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
