@@ -70,12 +70,13 @@ $background-color: #fff !default;
 /* PERSONAL CHANGE START */
 // $code-background-color: #fafafa !default;
 // $code-background-color-dark: $light-gray !default;
+// $text-color: $dark-gray !default;
 $code-background-color: #f9f2f4 !default;
 $code-background-color-dark: #f9f2f4 !default;
-/* PERSONAL CHANGE END */
 $text-color: $dark-gray !default;
+$border-color: $dark-pink-personal !default;
+/* PERSONAL CHANGE END */
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
-$border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
