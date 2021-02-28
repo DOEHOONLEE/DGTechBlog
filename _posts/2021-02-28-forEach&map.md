@@ -24,7 +24,8 @@ array.forEach(function(currentValue){
 //"banana"
 //"melon"
 ```
-배열과 관련해서 어떤 명령을 내리고 새로운 값을 유지하기 위해서는 함수 밖에 변수를 선언하여야 합니다.
+다른 메서드들, 예를 들어 reduce와 map과 forEach의 큰 차이점은 콜백함수가 어떤 특정 값을 return하는 것이 아닌 undefined를 출력합니다.
+따라서 배열과 관련해서 어떤 명령을 내리고 새로운 값을 유지하기 위해서는 함수 밖에 변수를 선언하여야 합니다.
 ```js
 const array=[1,2,3]
 let newArr=[];
