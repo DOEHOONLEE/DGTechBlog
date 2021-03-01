@@ -9,6 +9,8 @@ tags:
     - Javascript
 ---
 
+> Author: Gidon Ryu
+
 ##### forEach의 형태
 
 ### Array.forEach( callBackFunction(currentValue, index, Array) )
