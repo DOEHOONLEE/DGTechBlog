@@ -11,6 +11,8 @@ tags:
   - Algorithm
 ---
 
+> Author: Doe Hoon LEE
+
 #### What is Big O Notation?
 
 Big O Notation is a way to evaluate how efficient your algorithm is!

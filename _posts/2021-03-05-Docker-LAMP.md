@@ -11,6 +11,8 @@ tags:
   - LAMP
 ---
 
+> Author: Doe Hoon LEE
+
 #### This shows the steps to setup LAMP environment with Docker
 
 ##### What is LAMP?
