@@ -49,6 +49,14 @@ It shows things like
 for file in /Users/userName/Directory/*; do mediainfo $file; done
 ```
 
+##### Wait a second! I see too many unnecessary extra information.
+
+##### Can I see what I need only? SURE you can!
+
+```bash
+for file in /Users/userName/Directory/*; do mediainfo $file | grep 'Duration' | head -n 1; done
+```
+
 ##### Next time, we will find out how we can get the total duration within a folder!
 
 See you again!
