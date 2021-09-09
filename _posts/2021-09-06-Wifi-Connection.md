@@ -1,5 +1,5 @@
 ---
-title: "What is -rw-rw-r-- ?!"
+title: "Look around for Wifi on Mac Terminal!"
 
 categories:
   - Linux
