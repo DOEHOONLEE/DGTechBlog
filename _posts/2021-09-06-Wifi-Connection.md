@@ -15,9 +15,7 @@ tags:
 
 ###### First, let's look for available wifi around us!
 
-`
-/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -s
-`
+`/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -s`
 
 Then you'll see the following
 
