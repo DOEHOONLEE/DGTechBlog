@@ -8,7 +8,7 @@ tags:
   - Linux
 ---
 
-<hr>
+> Author: Doe Hoon LEE
 
 #### Find and Connect wifi on MacBook terminal
 

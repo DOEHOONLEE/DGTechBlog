@@ -2,13 +2,10 @@
 title: "Read/Get Media File Info On Mac Terminal"
 
 categories:
-  - Docker
   - Linux
 
 tags:
   - Linux
-  - Docker
-  - LAMP
 ---
 
 > Author: Doe Hoon LEE
