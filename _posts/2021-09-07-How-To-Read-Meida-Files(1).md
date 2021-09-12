@@ -1,5 +1,5 @@
 ---
-title: "Read/Get Media File Info On Mac Terminal"
+title: "Read/Get Media File Info On Mac Terminal (1)"
 
 categories:
   - Linux
