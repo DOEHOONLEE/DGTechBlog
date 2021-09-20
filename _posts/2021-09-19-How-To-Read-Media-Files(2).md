@@ -111,3 +111,102 @@ exec(`
     }
 )
 ```
+
+![Duration Calculated]({{ site.url }}{{ site.baseurl }}/assets/img/post/duration.png)
+
+###### Yay~!!
+
+BUT!! the numbers don't look so nice though~!
+
+Let's recalculate them with a proper format.
+
+```js
+if (duration.ms) {
+    const addToSec = (duration.ms / 1000) | 0;
+    const remainder = duration.ms % 1000;
+    duration.s += addToSec;
+    duration.ms = remainder;
+}
+
+if (duration.s) {
+    const addToMin = (duration.s / 60) | 0;
+    const remainder = duration.s % 60;
+    duration.min += addToMin;
+    duration.s = remainder;
+}
+
+if (duration.min) {
+    const addToHour = (duration.min / 60) | 0;
+    const remainder = duration.min % 60;
+    duration.h += addToHour;
+    duration.min = remainder;
+}
+
+console.log(`Final Result : \n
+The Total Duration Of The Folder Is \n
+${duration.h || 0} hour ${duration.min || '00'} min ${duration.s || '00'} sec ${duration.ms || '00'} ms long!`)
+```
+
+###### So put them all together in one, we have
+
+```js
+const { exec } = require('child_process');
+
+const duration = {}
+
+let res = [];
+
+exec(`
+        for file in /Users/doehoonlee/Desktop/sample/*; do mediainfo $file | grep 'Duration' | head -n 1; done
+    `, (err, stdout) => {
+        if (err) console.error(err);
+
+        console.log("Durations of files : \n", stdout)
+    
+        res = stdout.replace(/ +/g, ' ').replace(/Duration :/g, '').replace(/[\r\n]/g, '').split(" ").filter(c => c.length > 0)
+
+        console.log("hr, min, s, ms separated : \n", res)
+
+        for (let i=res.length-1; i > 0; i-=2) {
+            duration[res[i]] = duration[res[i]] + Number(res[i-1]) || Number(res[i-1]);
+        }
+    
+        console.log("Cleaned up : \n", duration)
+
+        if (duration.ms) {
+            const addToSec = (duration.ms / 1000) | 0;
+            const remainder = duration.ms % 1000;
+            duration.s += addToSec;
+            duration.ms = remainder;
+        }
+
+        if (duration.s) {
+            const addToMin = (duration.s / 60) | 0;
+            const remainder = duration.s % 60;
+            duration.min += addToMin;
+            duration.s = remainder;
+        }
+
+        if (duration.min) {
+            const addToHour = (duration.min / 60) | 0;
+            const remainder = duration.min % 60;
+            duration.h += addToHour;
+            duration.min = remainder;
+        }
+
+        console.log(`Final Result : \n
+        The Total Duration Of The Folder Is \n
+        ${duration.h || 0} hour ${duration.min || '00'} min ${duration.s || '00'} sec ${duration.ms || '00'} ms long!`)
+    }
+)
+```
+
+Running `node duration.js` will get you
+
+![Duration Calculated Final]({{ site.url }}{{ site.baseurl }}/assets/img/post/durationFinal.png)
+
+Note that this is not the final solution. This will be updated. Until then, this will remain as your challenge to refactor :)
+
+As always, thanks for coming to DGTechBlog.
+
+Have a wonderful day.
