@@ -22,6 +22,10 @@ tags:
 
 `npm install read-excel-file --save`
 
+##### This is the sample excel data that we are going to use!
+
+![Sample Excel Data]({{ site.url }}{{ site.baseurl }}/assets/img/post/sampleExcelData.png)
+
 ##### We first need to import the module
 
 ```js
@@ -34,7 +38,7 @@ then
 
 ```js
 readXlsxFile(pathToExcelFile).then((rows) => {
-  console.table(rows);
+  console.log(rows);
 })
 ```
 
@@ -43,3 +47,13 @@ readXlsxFile(pathToExcelFile).then((rows) => {
 ```bash
 node excelReader.js
 ```
+
+![Sample Excel Data Read]({{ site.url }}{{ site.baseurl }}/assets/img/post/sampleExcelDataRead.png)
+
+Please take some time and see how the contents of excel file are converted in a form of array!
+
+Next time, we are going to learn how to format better with these!
+
+See you again!
+
+Take care!
