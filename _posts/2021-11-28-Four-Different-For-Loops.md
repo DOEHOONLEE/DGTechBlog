@@ -27,24 +27,32 @@ var personArray = [
 
 ##### Regular For Loop!
 
+```js
 for (let i=0; i < personArray.length; i++) {
     console.log(`His/her name is ${personArray[i].name}. He/She is ${personArray[i].age} years old.`);
 }
+```
 
 #### For...Of
 
+```js
 for (const person of personArray) {
     console.log(`His/her name is ${person.name}. He/She is ${person.age} years old.`);
 }
+```
 
 #### For...In
 
+```js
 for (const person in personArray) {
     console.log(`His/her name is ${personArray[person].name}. He/She is ${personArray[person].age} years old.`);
 }
+```
 
 #### forEach()
 
+```js
 personArray.forEach(person => {
     console.log(`His/her name is ${person.name}. He/She is ${person.age} years old.`);
 })
+```
